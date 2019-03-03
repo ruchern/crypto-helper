@@ -7,6 +7,9 @@
   "author": "Ru Chern Chong <hello@ruchern.net>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "format": "prettier --write *.{js,md}"
+  },
   "dependencies": {
     "axios": "^0.18.0"
   },
