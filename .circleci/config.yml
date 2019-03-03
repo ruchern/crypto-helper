@@ -15,6 +15,9 @@ jobs:
       - run:
           name: Install packages
           command: yarn --production
+      - persist_to_workspace:
+          root: .
+          paths: .
       - save_cache:
           paths:
             - node_modules/
